@@ -1,7 +1,10 @@
 # codewars
 Practice problems that I solve for fun!
 
-Problem Descriptions:
+Problem Descriptions
+
+Dec2Fact: Decimal to Factorial and Back.
+Coding decimal numbers with factorials is a way of writing out numbers in a base system that depends on factorials, rather than powers of numbers. In this system, the last digit is always 0 and is in base 0!. The digit before that is either 0 or 1 and is in base 1!. The digit before that is either 0, 1, or 2 and is in base 2!, etc. More generally, the nth-to-last digit is always 0, 1, 2, ..., n and is in base n!. There are two functions. The first one will receive a decimal number and return a string with the factorial representation.
 
 josephusPermutation: Josephus' Permutation.
 This problem takes its name from the ancient historian Josephus: according to his tale, he and his 40 soldiers were trapped in a cave by the Romans during a siege.
@@ -10,6 +13,9 @@ This function returns a Josephus permutation, taking as parameters the initial a
 
 nextSmaller: Next smaller number with the same digits.
 Write a function that takes a positive integer and returns the next smaller positive integer containing the same digits.
+
+playWithTwoStrings: Play with two Strings.
+Input Strings a and b: For every character in string a swap the casing of every occurrence of the same character in string b. Then do the same casing swap with the inputs reversed. Return a single string consisting of the changed version of a followed by the changed version of b. A char of a is in b regardless if it's in upper or lower case - see the testcases too.
 
 recoverSecret: Recover a secret string from random triplets.
 There is a secret string which is unknown to you. 
