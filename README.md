@@ -11,8 +11,14 @@ This problem takes its name from the ancient historian Josephus: according to hi
 Refusing to surrender to the enemy, they instead opted for mass suicide, with a twist: they formed a circle and proceeded to kill one man every three, until one last man was left (and that it was supposed to kill himself to end the act).
 This function returns a Josephus permutation, taking as parameters the initial array/list of items to be permuted as if they were in a circle and counted out every k places until none remained.
 
+Maze: Help Kate find way out of maze. 
+For a given maze and Kate's position find if there is a way out. Your function should return True or False. Each maze is defined as a list of strings, where each char stays for a single maze "cell". ' ' (space) can be stepped on, '#' means wall and 'k' stays for Kate's starting position. Note that the maze may not always be square or even rectangular. Kate can move left, up, right or down only.
+
 nextSmaller: Next smaller number with the same digits.
 Write a function that takes a positive integer and returns the next smaller positive integer containing the same digits.
+
+perimeterOfSquares: Perimeter of squares in a rectangle.
+Could you give the sum of the perimeters of all the squares in a rectangle when there are n + 1 squares disposed in the same manner as in the drawing https://i.imgur.com/EYcuB1wm.jpg? 
 
 playWithTwoStrings: Play with two Strings.
 Input Strings a and b: For every character in string a swap the casing of every occurrence of the same character in string b. Then do the same casing swap with the inputs reversed. Return a single string consisting of the changed version of a followed by the changed version of b. A char of a is in b regardless if it's in upper or lower case - see the testcases too.
