@@ -3,7 +3,7 @@ Practice problems that I solve for fun! Problems were found on codewars.com.
 
 Problem Descriptions
 
-Dec2Fact: Decimal to Factorial and Back.
+dec2Fact: Decimal to Factorial and Back.
 Coding decimal numbers with factorials is a way of writing out numbers in a base system that depends on factorials, rather than powers of numbers. In this system, the last digit is always 0 and is in base 0!. The digit before that is either 0 or 1 and is in base 1!. The digit before that is either 0, 1, or 2 and is in base 2!, etc. More generally, the nth-to-last digit is always 0, 1, 2, ..., n and is in base n!. There are two functions. The first one will receive a decimal number and return a string with the factorial representation.
 
 josephusPermutation: Josephus' Permutation.
@@ -11,8 +11,14 @@ This problem takes its name from the ancient historian Josephus: according to hi
 Refusing to surrender to the enemy, they instead opted for mass suicide, with a twist: they formed a circle and proceeded to kill one man every three, until one last man was left (and that it was supposed to kill himself to end the act).
 This function returns a Josephus permutation, taking as parameters the initial array/list of items to be permuted as if they were in a circle and counted out every k places until none remained.
 
-Maze: Help Kate find way out of maze. 
+largestDifference: Write a function which takes an array data of numbers and returns the largest difference in indexes j - i such that data[i] <= data[j].
+Consider all of the pairs of numbers in the array where the first one is less than or equal to the second one. From these, find a pair where their positions in the array are farthest apart. Return the difference between the indexes of the two array elements in this pair.
+
+maze: Help Kate find way out of maze. 
 For a given maze and Kate's position find if there is a way out. Your function should return True or False. Each maze is defined as a list of strings, where each char stays for a single maze "cell". ' ' (space) can be stepped on, '#' means wall and 'k' stays for Kate's starting position. Note that the maze may not always be square or even rectangular. Kate can move left, up, right or down only.
+
+nextLargest: Next bigger number with the same digits.
+Create a function that takes a positive integer and returns the next bigger number that can be formed by rearranging its digits.
 
 nextSmaller: Next smaller number with the same digits.
 Write a function that takes a positive integer and returns the next smaller positive integer containing the same digits.
