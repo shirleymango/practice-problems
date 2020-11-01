@@ -1,7 +1,7 @@
 //Problem Description in README
 import java.util.*;
 
-public class Maze {
+public class maze {
     public static boolean hasExit(String[] maze) {
     //finding Kate's starting position
     int startX = -1; int startY = -1;
