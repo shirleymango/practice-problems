@@ -1,4 +1,4 @@
-public class Dec2Fact {
+public class dec2Fact {
   
   public static String dec2FactString(long nb) {
       String factorial = "";
