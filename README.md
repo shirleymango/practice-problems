@@ -1,4 +1,4 @@
-# codewars
+# Practice Problems
 Practice problems that I solve for fun! Problems were found on codewars.com.
 
 Problem Descriptions
