@@ -1,7 +1,7 @@
 # Practice Problems
-Practice problems that I solve for fun! Problems were found on codewars.com.
+Practice problems that I solve for fun!
 
-Problem Descriptions
+Problem Descriptions:
 
 dec2Fact: Decimal to Factorial and Back.
 Coding decimal numbers with factorials is a way of writing out numbers in a base system that depends on factorials, rather than powers of numbers. In this system, the last digit is always 0 and is in base 0!. The digit before that is either 0 or 1 and is in base 1!. The digit before that is either 0, 1, or 2 and is in base 2!, etc. More generally, the nth-to-last digit is always 0, 1, 2, ..., n and is in base n!. There are two functions. The first one will receive a decimal number and return a string with the factorial representation.
