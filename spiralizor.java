@@ -1,4 +1,4 @@
-public class Spiralizor {
+public class spiralizor {
 
     public static int[][] spiralize(int size) {
           int[][] arr = new int[size][size];
